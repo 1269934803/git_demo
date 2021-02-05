@@ -17,6 +17,17 @@
         <li>用暂存区中的文件覆盖当前工作目录中的问价 git checkout 文件</li>
         <li>git rm --cached test.html 将文件从暂存区中删除</li>
         <li>git reset --hard commitID 将git仓库中指定的更新记录恢复并覆盖暂存区和工作目录（也就是说所有的状态都会回到恢复的这次提交时，在这次提交之后的暂存区、工作目录或是提交记录都不存在了）</li>
+    
+        <li>分支与分支之间在开发过程中是独立的</li>
+        <li>在切换分支之前一定要将分支暂存区中的文件提交到仓库中</li>
+        <li>git branch 查看分支</li>
+        <li>git branch 分支名称  创建分支</li>
+        <li>git checkout 分支名称 切换分支</li>
+        <li>git merge 被合并分支的名称</li>
+        <li>git branch -d 分支名称 删除分支 如果要删除的分支没有合并但是还想删除（git branch -D 分支名称 强制删除）</li>
+    
+        <li>git stash 存储临时改动 当临时切换分支时，不想将当前分支的文件提交到仓库，可以用此命令将文件暂时保存更改，然后切换到其它分支工作</li>
+        <li>git stash pop 恢复存储临时改动</li>
     </ul>
 </body>
 </html>
